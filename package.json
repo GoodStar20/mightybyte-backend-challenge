@@ -1,0 +1,21 @@
+{
+  "name": "mightbyte-bakend-challenge",
+  "version": "1.0.0",
+  "description": "mightbyte.backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --inspect server.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "reviewer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
